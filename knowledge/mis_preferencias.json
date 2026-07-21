@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "preferencias_generales": {
+    "generos_favoritos": [],
+    "generos_evitar": [],
+    "idioma_letras": "es",
+    "bpm_rango": {
+      "min": 70,
+      "max": 140
+    }
+  },
+  "produccion": {
+    "estilo_mezcla": "warm_analog",
+    "efectos_voz": ["reverb", "subtle_delay"],
+    "elementos_prohibidos_en_prompts": [
+      "generic pop",
+      "overproduced EDM"
+    ]
+  },
+  "suno_settings": {
+    "estilo_prompt_max_caracteres": 120,
+    "lyrics_max_caracteres": 3000,
+    "usar_tags_estructura": true
+  }
+}

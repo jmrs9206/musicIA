@@ -2,15 +2,15 @@
 
 ## Visión General del Workflow
 
-El proyecto `MusicIA` se rige bajo el marco del **Orquestador de Agentes IA**. El desarrollo avanza mediante fases estructuradas y contratos de iteración rigurosos.
+El proyecto `MusicIA` se rige bajo el marco del **Orquestador de Agentes IA**. Su objetivo principal es la implementación de la red de 6 agentes musicales y la base de conocimiento para la generación optimizada en Suno AI.
 
 ---
 
 ## Estado Actual del Workflow
 
-- **Fase Activa**: `Fase 1: Inicialización & Gobernanza` (Completando)
-- **Siguiente Fase**: `Fase 2: Especificación y Arquitectura`
-- **Estado de Aprobación**: `NEEDS_APPROVAL` (Esperando confirmación del usuario sobre el enfoque y módulos de MusicIA)
+- **Fase Activa**: `Fase 3: Diseño de Arquitectura TARGET` (Completada) -> Preparando `Fase 4: Iteraciones de Desarrollo`
+- **Siguiente Fase**: `Iteración IT-001: Implementación de Módulos Base y Motor de Agentes`
+- **Estado de Aprobación**: `APPROVED`
 
 ---
 
@@ -29,33 +29,20 @@ graph TD
 #### Fase 1: Inicialización y Gobernanza (COMPLETADA)
 - [x] Copiar marco `.agents/`, `templates/`, `docs/`, `GEMINI.md` desde `orquestadorIA`.
 - [x] Crear repositorio Git e integrar con GitHub.
-- [x] Generar paquete de control `.ai/` (`PROJECT_CHARTER.md`, `PROJECT_CONSTITUTION.md`, `PROJECT_CONTEXT.md`, `REQUIREMENTS.md`, `ACCEPTANCE_CRITERIA.md`).
 
-#### Fase 2: Especificación y Requisitos (EN CURSO / SIGUIENTE)
-- [ ] Definir los módulos funcionales específicos de `MusicIA` (ej. Generador de música, procesamiento de audio, interfaz visual, APIs de IA).
-- [ ] Completar la matriz de requisitos y criterios de aceptación específicos.
+#### Fase 2: Especificación y Requisitos (COMPLETADA)
+- [x] Definir requisitos de la red de 6 agentes.
+- [x] Definir estructura del repositorio y base de conocimiento (`knowledge/`, `songs/`, `analysis/`, `prompts/`).
 
-#### Fase 3: Diseño de Arquitectura TARGET
-- [ ] Definir la pila tecnológica del proyecto (Frontend, Backend, IA/Audio, DB).
-- [ ] Elaborar `ARCHITECTURE.md` y registros de decisión (`ADR.md`).
+#### Fase 3: Diseño de Arquitectura TARGET (COMPLETADA)
+- [x] Elaborar [.ai/ARCHITECTURE.md](file:///home/jmrs/Documentos/PROYECTOS/JMRS/MusicIA/.ai/ARCHITECTURE.md) detallando el flujo de agentes (Audio Analyst, Style Analyst, Lyric Analyst, Music Director, Prompt Engineer, Critic Agent).
+- [x] Actualizar roles específicos en [.agents/agents.md](file:///home/jmrs/Documentos/PROYECTOS/JMRS/MusicIA/.agents/agents.md).
 
-#### Fase 4: Iteraciones de Desarrollo
-- [ ] Planificación de tareas (`TASK_CONTRACT.md`).
-- [ ] Ejecución por agentes especializados con evidencia (`EVIDENCE_LOG.md`).
-- [ ] Revisión independiente (`revisar_cambios.md`).
+#### Fase 4: Iteraciones de Desarrollo (EN CURSO)
+- [ ] **IT-001**: Estructura de módulos de código y contratos de agentes.
+- [ ] **IT-002**: Agentes Analistas (Audio Analyst, Style Analyst, Lyric Analyst).
+- [ ] **IT-003**: Agente Director Musical (Music DNA Profile synthesis) & Prompt Engineer Agent para Suno.
+- [ ] **IT-004**: Critic Agent & interfaz de interacción con el usuario.
 
 #### Fase 5: Validación y Entrega
-- [ ] Evaluación QA.
-- [ ] Reporte de iteración (`ITERATION_REPORT.md`).
-
----
-
-## Roles Activos en el Workflow
-
-| Rol | Responsabilidad | Estado |
-|---|---|---|
-| `@director` | Alineación global y supervisión | Activo |
-| `@product` | Definición de charter y requisitos | Activo |
-| `@context` | Mantenimiento de hechos verificados | Activo |
-| `@architect` | Diseñar la estructura técnica de MusicIA | Pendiente (Fase 3) |
-| `@planner` | Diseñar tareas de iteración | Pendiente (Fase 4) |
+- [ ] Pruebas QA completas de generación de prompts y feedback.

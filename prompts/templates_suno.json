@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "estructuras_tags_suno": [
+    "[Intro]",
+    "[Verse 1]",
+    "[Pre-Chorus]",
+    "[Chorus]",
+    "[Verse 2]",
+    "[Bridge]",
+    "[Guitar Solo / Instrumental Break]",
+    "[Chorus]",
+    "[Outro]",
+    "[Fade Out]"
+  ],
+  "plantillas_prompt_estilo": [
+    "{genero_principal}, {subgeneros}, {bpm} bpm, {instrumentos_clave}, {atmosfera}, {tipo_voz}"
+  ]
+}

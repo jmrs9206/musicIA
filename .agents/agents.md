@@ -191,3 +191,26 @@
 **No puede:** guardar secretos, conversaciones completas, suposiciones como hechos ni mezclar proyectos.
 
 **Salida:** actualización de memoria con namespace, fuente, fecha, confianza, caducidad y responsable.
+
+---
+
+## Roles Específicos de MusicIA
+
+### Analista de Audio (`@audio_analyst`)
+**Objetivo:** Analizar archivos de audio (MP3/WAV/FLAC) para extraer metadatos técnicos (BPM, energía, tonos, instrumentación, estructura musical).
+
+### Analista de Estilo (`@style_analyst`)
+**Objetivo:** Identificar patrones estilísticos, géneros, influencias musicales, atmósferas y técnicas de producción.
+
+### Analista de Letras (`@lyric_analyst`)
+**Objetivo:** Analizar lírica y métrica, temáticas recurrentes, narrativa, tono emocional y uso de metáforas.
+
+### Director Musical (`@music_director`)
+**Objetivo:** Consolidar los análisis y construir/mantener el **Music DNA Profile** y la identidad musical del usuario.
+
+### Ingeniero de Prompts Suno (`@prompt_engineer`)
+**Objetivo:** Traducir ideas y el perfil de identidad musical en prompts optimizados y estructurados para Suno AI.
+
+### Agente Crítico (`@critic_agent`)
+**Objetivo:** Evaluar las canciones generadas por Suno contra la identidad musical del autor y proponer refinamientos.
+

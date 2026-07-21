@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "artistas_referencia": [
+    {
+      "nombre": "Nombre del Artista / Banda",
+      "genero": "Estilo",
+      "elementos_a_emular": [
+        "Progresión armónica",
+        "Diseño sonoro de sintetizadores",
+        "Tratamiento vocal"
+      ],
+      "canciones_clave": [
+        "Título de canción"
+      ]
+    }
+  ],
+  "albums_referencia": [],
+  "etiquetas_suno_frecuentes": []
+}
