@@ -1,0 +1,44 @@
+{
+  "artist_name": "Creador MusicIA",
+  "primary_genres": [
+    "Indie Rock",
+    "Alternative Folk",
+    "Synth Pop"
+  ],
+  "signature_instruments": [
+    "Acoustic Guitar",
+    "Analog Synth",
+    "Warm Bass",
+    "Organic Drums"
+  ],
+  "vocal_identity": "Raw emotive vocals, intimate lead, layered backing harmonies",
+  "preferred_bpm_range": {
+    "min": 70,
+    "max": 140
+  },
+  "signature_atmospheres": [
+    "Melancholic",
+    "Warm analog",
+    "Atmospheric",
+    "Nostalgic"
+  ],
+  "lyric_themes": [
+    "Introspección",
+    "Narrativas nocturnas",
+    "Búsqueda personal"
+  ],
+  "influences": [
+    "Radiohead",
+    "Phoebe Bridgers",
+    "Bon Iver",
+    "The xx"
+  ],
+  "suno_style_keywords": [
+    "indie rock",
+    "warm acoustic guitar",
+    "analog synth",
+    "melancholic vibe",
+    "intimate raw vocals",
+    "tape saturation"
+  ]
+}
